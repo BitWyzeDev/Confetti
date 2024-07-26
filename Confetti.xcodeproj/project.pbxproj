@@ -13,6 +13,7 @@
 		01AF19182C47AC790043EE7C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01AF19172C47AC790043EE7C /* Base */; };
 		01AF191A2C47AC7A0043EE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01AF19192C47AC7A0043EE7C /* Assets.xcassets */; };
 		01AF191D2C47AC7A0043EE7C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 01AF191C2C47AC7A0043EE7C /* Base */; };
+		01AF19262C48F0F70043EE7C /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF19252C48F0F70043EE7C /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		01AF19192C47AC7A0043EE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01AF191C2C47AC7A0043EE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01AF191E2C47AC7A0043EE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01AF19252C48F0F70043EE7C /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				01AF19192C47AC7A0043EE7C /* Assets.xcassets */,
 				01AF191B2C47AC7A0043EE7C /* LaunchScreen.storyboard */,
 				01AF191E2C47AC7A0043EE7C /* Info.plist */,
+				01AF19252C48F0F70043EE7C /* UIColor+.swift */,
 			);
 			path = Confetti;
 			sourceTree = "<group>";
@@ -111,6 +114,8 @@
 				Base,
 			);
 			mainGroup = 01AF19042C47AC790043EE7C;
+			packageReferences = (
+			);
 			productRefGroup = 01AF190E2C47AC790043EE7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AF19152C47AC790043EE7C /* ViewController.swift in Sources */,
+				01AF19262C48F0F70043EE7C /* UIColor+.swift in Sources */,
 				01AF19112C47AC790043EE7C /* AppDelegate.swift in Sources */,
 				01AF19132C47AC790043EE7C /* SceneDelegate.swift in Sources */,
 			);
