@@ -44,9 +44,10 @@ class ViewController: UIViewController {
     let decimalFormatter = NumberFormatter()
 
     
+    
     var velocity: Float = 240.0
     var velocityRange: Float = 100.0
-    var scale: Float = 0.05
+    var scale: Float = 0.15
     var scaleRange: Float = 0.05
     var birthRate: Float = 12.0 // specifies the number of particles that are emitted per second
     var spin: CGFloat = 2.0   // Sets a base rotational speed of 2 radians per second
@@ -60,6 +61,15 @@ class ViewController: UIViewController {
     let blue = UIColor(hexString: "#89E2A4")!
     let yellow = UIColor(hexString: "#F6DC99")!
     let orange = UIColor(hexString: "#FF9933")!
+    
+    let confettiImages = ["SquareConfetti", "CurledConfetti", "RectangleConfetti"]
+    
+    func getRandomConfettiImage() -> CGImage? {
+        let randomIndex = Int.random(in: 0...(confettiImages.count - 1))
+        let imageName = confettiImages[randomIndex]
+        print("random confetti image: \(imageName)")
+        return UIImage(named: imageName)?.cgImage
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -128,7 +138,8 @@ class ViewController: UIViewController {
             cell.scale = CGFloat(scale)
             cell.scaleRange = CGFloat(scaleRange)
             cell.color = color.cgColor
-            cell.contents = UIImage(named: "Confetti")?.cgImage
+//            cell.contents = UIImage(named: "Confetti")?.cgImage
+            cell.contents = getRandomConfettiImage()
             
             cells.append(cell)
         }

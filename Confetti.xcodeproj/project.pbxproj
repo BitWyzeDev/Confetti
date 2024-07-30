@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0138AC7A2C58F84A007BC5BD /* ConfettiEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138AC792C58F84A007BC5BD /* ConfettiEffect.swift */; };
 		01AF19112C47AC790043EE7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF19102C47AC790043EE7C /* AppDelegate.swift */; };
 		01AF19132C47AC790043EE7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF19122C47AC790043EE7C /* SceneDelegate.swift */; };
 		01AF19152C47AC790043EE7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AF19142C47AC790043EE7C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0138AC792C58F84A007BC5BD /* ConfettiEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiEffect.swift; sourceTree = "<group>"; };
 		01AF190D2C47AC790043EE7C /* Confetti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Confetti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01AF19102C47AC790043EE7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01AF19122C47AC790043EE7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				01AF191B2C47AC7A0043EE7C /* LaunchScreen.storyboard */,
 				01AF191E2C47AC7A0043EE7C /* Info.plist */,
 				01AF19252C48F0F70043EE7C /* UIColor+.swift */,
+				0138AC792C58F84A007BC5BD /* ConfettiEffect.swift */,
 			);
 			path = Confetti;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0138AC7A2C58F84A007BC5BD /* ConfettiEffect.swift in Sources */,
 				01AF19152C47AC790043EE7C /* ViewController.swift in Sources */,
 				01AF19262C48F0F70043EE7C /* UIColor+.swift in Sources */,
 				01AF19112C47AC790043EE7C /* AppDelegate.swift in Sources */,
